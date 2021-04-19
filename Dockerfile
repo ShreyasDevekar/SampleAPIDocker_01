@@ -7,7 +7,7 @@ COPY src /home/APITestFramework/src
 COPY pom.xml /home/APITestFramework
 
 #coping testing.xml file of your framework
-COPY testing.xml /home/APITestFramework
+COPY testng.xml /home/APITestFramework
 
 #running actual command
 RUN mvn -f /home/APITestFramework/pom.xml clean install
