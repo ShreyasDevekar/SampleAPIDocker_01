@@ -12,6 +12,7 @@ public class SampleTest
 	{
 		utils.GET_Method("https://demoqa.com/utilities/weather/city/Hyderabad");
 		utils.validateStatusCode(200);
+		System.out.println("Demo------------------------------");
 		
 	}
 
